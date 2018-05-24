@@ -1,13 +1,21 @@
-.jumbotron {
-    background-image: url("../images/velke/img01.jpg");
-    background-size: cover;
+.uvodni_obrazek {
+    width: 100%;
+    background: url("../images/uvod.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
     background-position: bottom;
+}
+
+.jumbotron {
     margin-top: 2rem;
-    
+    padding: 20px;   
 }
 
 .jumbotron h1, .jumbotron p {
-    color: #f1f1f1;
-    text-shadow: 1px 1px 2px rgba(000, 000, 000, 1);
+    color: #333;
+}
+
+.responsive_obrazek {
+    max-width: 100%;
 }
