@@ -1,21 +1,129 @@
+body {
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu {
+ padding: 20px;
+}
+
+.menu-projekt {
+  font-size: 1.5rem;  
+}
+
+.menu-projekt p{
+    color: #f1f1f1;
+    padding-right: 10px;
+}
+
+.navbar,
+.navbar-inverse {
+    margin-bottom: 0;
+    border-radius: 0px;
+}
+
 .uvodni_obrazek {
     width: 100%;
-    background: url("../images/uvod.jpg");
+    background: url("../images/velky_obrazek.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
     background-position: bottom;
 }
-
-.jumbotron {
-    margin-top: 2rem;
-    padding: 20px;   
+.nadpis {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.jumbotron h1, .jumbotron p {
-    color: #333;
+.obrazek {
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 .responsive_obrazek {
     max-width: 100%;
 }
+
+.omne-text {
+    font-size: 1.3em;
+}
+
+.omne-text-obrazek {
+    width: 100%;
+    border: 4px solid #333;
+    
+}
+
+.herni-pole {
+    height: 400px;
+    background-color: red;
+    margin-top: 30px;
+}
+
+.chat {
+    height: 200px;
+    background-color: blue;
+    margin-top: 30px;
+    
+}
+
+.chat-levy {
+    height: 200px;
+    background-color: greenyellow;
+}
+
+.chat-pravy {
+    height: 200px;
+    background-color: goldenrod;
+}
+
+.hraci {
+    height: 630px;
+    margin-top: 30px; 
+    background-color: green;
+
+}
+.hrac {
+    margin: 10px;
+}
+.hrac img {
+    border-radius: 100px;
+}
+
+.hrac p {
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1.4rem;
+
+}
+
+.hrac p, .hrac img{
+    float: left;
+
+}
+
+.kim {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.jmeno {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 560px) {
+    .omne-text-obrazek {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 10px;  
+        max-width: 300px;
+    }
+}
+
+footer {
+    background-color: #333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #f1f1f1;
+}
+    
