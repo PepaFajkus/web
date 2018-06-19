@@ -1,0 +1,98 @@
+img {
+    max-width: 100%;
+}
+h3  {
+    display: inline-block;
+}
+
+body {
+    background-color: #000d1a;
+}
+main, a {
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.box-maly {
+    height: 150px;
+    background-color: green;
+    padding: 15px;
+}
+
+.box-stredni {
+    height: 150px;
+    background-color: blue;
+    padding: 15px;
+}
+
+.box-velky {
+    height: 330px;
+    background-color: darkred;
+    padding: 15px;
+}
+
+.box-maly, .box-stredni, .box-velky {
+    margin-bottom: 30px;
+}
+
+.minecraft-bunka {
+    padding: 15px;
+}
+
+.minelogo {
+    width: 150px;
+}
+
+.microsoft-logo {
+    width: 150px;
+    float: right;
+}
+
+.partneri {
+    float: left;
+}
+
+.skolstvi {
+    float: left;
+}
+
+.skype-yammer {
+    background-color: #007fff;
+}
+
+.onedrive-windows {
+    background-color: #003366;
+}
+
+.office-officemix {
+    background-color: orangered;
+}
+
+.xboxone {
+    background-color: greenyellow;
+}
+
+.phones {
+    background-color: yellow;
+}
+
+.virtualstudio {
+    background-color: purple;
+}
+
+.sway {
+    background-color: teal;
+}
+
+.minecraft {
+    background-color: darkgreen;
+}
+
+.kodu {
+    background-color:  lawngreen;
+}
+
+.onenote {
+    background-color: darkred;
+}

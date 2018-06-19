@@ -3,6 +3,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+img {
+    max-width: 100%;
+}
+
 .menu {
  padding: 20px;
 }
@@ -83,27 +87,9 @@ body {
     background-color: green;
 
 }
-.hrac {
-    margin: 10px;
-}
-.hrac img {
-    border-radius: 100px;
-}
-
-.hrac p {
-    padding-top: 30px;
-    padding-left: 30px;
-    font-size: 1.4rem;
-
-}
-
-.hrac p, .hrac img{
-    float: left;
-
-}
 
 .kim {
-    width: 100px;
+    max-width: 100px;
     border-radius: 100px;
 }
 
@@ -126,4 +112,11 @@ footer {
     padding-bottom: 10px;
     color: #f1f1f1;
 }
+
+/* styly na seznam */
+
+.centrovany {
+ text-align: center;
+}
+
     
